@@ -1,6 +1,6 @@
 ---
 name: hmi-design-light
-description: ISA-101 design rules for Human Machine Interfaces in process automation, covering display hierarchy, color standards, alarm integration, navigation, and situation awareness. Use when designing, building, reviewing, or generating code for HMIs, control system displays, SCADA screens, operator dashboards, or industrial control panels. Use when asked about ISA-101, alarm design, operator display hierarchy, or HMI color standards. Not for general web dashboards, business analytics, or consumer UIs.
+description: ISA-101 design rules for Human Machine Interfaces in process automation, covering display hierarchy, color standards, alarm integration, navigation, and situation awareness. Use when designing, building, reviewing, or generating code for HMIs, control system displays, SCADA screens, operator dashboards, or industrial control panels. Use when asked about ISA-101, alarm design, operator display hierarchy, or HMI color standards.
 ---
 
 # HMI Design for AI Agents
@@ -15,9 +15,9 @@ ISA-101 design rules for Human Machine Interfaces in process automation. Apply t
 4. **Consistency is mandatory.** All displays must share a unified look, feel, and interaction model.
 5. **Failure must be visible.** If a display element, data source, or communication path fails, the operator must know immediately.
 
-## Display Hierarchy (4 Levels)
+## Display Hierarchy
 
-Design displays in a strict 4-level hierarchy. Never exceed 4 levels.
+Design displays generally in a 4-level hierarchy.
 
 ### Level 1 — Overview (Entire Span of Control)
 - Shows the operator's ENTIRE scope of responsibility on ONE screen
